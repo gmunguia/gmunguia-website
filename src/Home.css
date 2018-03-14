@@ -1,0 +1,77 @@
+.Home {
+  background-image: url("./background@1366.jpg");
+  background-color: #eee;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #285858;
+  width: 100%;
+  height: 100%;
+  text-align: right;
+}
+
+@media screen and (orientation: portrait) {
+  .Home {
+    background-image: url("./background@375.jpg");
+  }
+}
+
+@media screen and (orientation: landscape) and (min-width: 1700px) {
+  .Home {
+    background-image: url("./background@1920.jpg");
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.title {
+  padding: 5rem;
+  font-size: 1.5rem;
+  font-family: "Julius Sans One", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu {
+  font-size: 1.3rem;
+  justify-content: space-between;
+  font-weight: bold;
+  display: flex;
+  list-style: none;
+  padding: 0 5rem;
+  width: 21rem;
+}
+
+.menu__item {
+  flex: 1;
+}
+
+.menu__item a {
+  display: block;
+  text-align: center;
+}
+
+.menu__item:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .title {
+    padding: 1rem;
+  }
+  .menu {
+    padding: 0 1rem;
+  }
+}
+
+.title__name {
+}
+
+.title__description {
+}

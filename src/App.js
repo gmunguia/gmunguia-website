@@ -1,14 +1,27 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import { AnimatedSwitch } from "react-router-transition";
+
+import "./App.css";
+import Home from "./Home";
+import About from "./About";
+import Gadgets from "./Gadgets";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-          <h1 className="name">Welcome to React</h1>
-          <h2 className="title">zen, millenial<br>web developer</h2>
-      </div>
+      <Router className="App">
+        <AnimatedSwitch
+          atEnter={{ opacity: 0 }}
+          atLeave={{ opacity: 0 }}
+          atActive={{ opacity: 1 }}
+          className="switch-wrapper"
+        >
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/gadgets" component={Gadgets} />
+        </AnimatedSwitch>
+      </Router>
     );
   }
 }
