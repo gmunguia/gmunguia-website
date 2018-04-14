@@ -1,0 +1,86 @@
+.Gadgets {
+  background-color: #f2fdff;
+  min-height: 100%;
+}
+
+.Gadgets s {
+  color: #c06938;
+}
+
+.Gadgets__container {
+  max-width: 1032px;
+  margin: auto;
+  padding: 2em 1em;
+}
+
+.Gadgets__header {
+  display: flex;
+  align-items: center;
+}
+
+.Gadgets__back {
+  font-size: 3rem;
+  margin: auto 0;
+  padding-right: 1em;
+}
+
+.Gadgets__list {
+  list-style: none;
+  padding: 0;
+}
+
+.Gadgets__item {
+  display: flex;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.Gadgets__item:hover {
+  background-color: #2e86ab;
+  color: #f2fdff;
+}
+
+.Gadgets__item:nth-of-type(odd):hover {
+  background-color: #a23b72;
+}
+
+.Gadgets__item-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 3;
+  padding: 1em;
+}
+
+.Gadgets__item-title {
+  margin: 0 0 0.5em 0;
+}
+
+.Gadgets__item-description {
+  margin: 0;
+}
+
+.Gadgets__item-image {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .Gadgets__item-image {
+    flex: 3;
+  }
+}
+
+.Gadgets__item-parts {
+  list-style: none;
+  padding: 0;
+  font-weight: bold;
+}
+
+.Gadgets__item-part {
+  display: inline-block;
+}
+
+.Gadgets__item-part:nth-of-type(n + 2)::before {
+  content: "-";
+  padding: 0 0.5em;
+}
