@@ -50,6 +50,11 @@ a {
 
 .menu__item {
   flex: 1;
+  position: relative;
+}
+
+.menu__item:hover {
+  text-decoration: underline;
 }
 
 .menu__item a {
@@ -57,8 +62,10 @@ a {
   text-align: center;
 }
 
-.menu__item:hover {
-  text-decoration: underline;
+.menu__item--external a::after {
+  content: "↗";
+  font-size: 0.7em;
+  position: absolute;
 }
 
 @media (max-width: 768px) {

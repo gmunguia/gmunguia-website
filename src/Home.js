@@ -18,10 +18,10 @@ class Home extends Component {
               <Link to="about">About</Link>
             </li>
             <li className="menu__item">
-              <a href="https://github.com/gmunguia">Work</a>
-            </li>
-            <li className="menu__item">
               <Link to="/gadgets">Gadgets</Link>
+            </li>
+            <li className="menu__item menu__item--external">
+              <a href="https://github.com/gmunguia">Work</a>
             </li>
           </ul>
         </nav>
