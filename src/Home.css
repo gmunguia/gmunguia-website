@@ -4,7 +4,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #285858;
+  color: #c06938;
   width: 100%;
   height: 100%;
   text-align: right;
@@ -68,10 +68,4 @@ a {
   .menu {
     padding: 0 1rem;
   }
-}
-
-.title__name {
-}
-
-.title__description {
 }

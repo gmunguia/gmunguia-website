@@ -34,11 +34,11 @@ class Gadgets extends Component {
             </nav>
             <h1>Gadgets</h1>
           </header>
-          <p>
-            A curated list of artifacts that symbolize a pact with{" "}
-            <s>materialism</s>.
-          </p>
           <main>
+            <p>
+              A curated list of artifacts that symbolize a pact with{" "}
+              <s>materialism</s>.
+            </p>
             <ul className="Gadgets__list">
               <li>
                 <a href={affiliateLinks.backpack} className="Gadgets__item">

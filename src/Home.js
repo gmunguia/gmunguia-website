@@ -7,9 +7,9 @@ class Home extends Component {
     return (
       <div className="Home">
         <div className="title">
-          <h1 className="title__name">Gmungia</h1>
+          <h1 className="title__name">Gmunguia</h1>
           <h2 className="title__description">
-            zen, millenial<br />web developer
+            zen thinker,<br />web developer
           </h2>
         </div>
         <nav className="navbar">
