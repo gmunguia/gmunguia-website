@@ -51,7 +51,11 @@ class Gadgets extends Component {
                       bought it a few years ago, and never looked back.
                     </p>
                   </div>
-                  <img src={backpackImage} className="Gadgets__item-image" />
+                  <img
+                    alt=""
+                    src={backpackImage}
+                    className="Gadgets__item-image"
+                  />
                 </a>
               </li>
               <li className="Gadgets__item">
@@ -76,7 +80,11 @@ class Gadgets extends Component {
                     </li>
                   </ul>
                 </div>
-                <img src={keyboardImage} className="Gadgets__item-image" />
+                <img
+                  alt=""
+                  src={keyboardImage}
+                  className="Gadgets__item-image"
+                />
               </li>
               <li>
                 <a href={affiliateLinks.pen} className="Gadgets__item">
@@ -88,7 +96,11 @@ class Gadgets extends Component {
                       good choice for everyday writing.
                     </p>
                   </div>
-                  <img src={penImage} className="Gadgets__item-image" />
+                  <img
+                    alt=""
+                    src={penImage}
+                    className="Gadgets__item-image"
+                  />
                 </a>
               </li>
             </ul>
