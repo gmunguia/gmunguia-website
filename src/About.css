@@ -1,0 +1,26 @@
+.About {
+  background-color: #f2fdff;
+  min-height: 100%;
+}
+
+.About a {
+  color: #c06938;
+}
+
+.About__container {
+  max-width: 1032px;
+  margin: auto;
+  padding: 2em 1em;
+}
+
+.About__header {
+  display: flex;
+  align-items: center;
+}
+
+.About__back {
+  color: #c06938;
+  font-size: 3rem;
+  margin: auto 0;
+  padding-right: 1em;
+}
