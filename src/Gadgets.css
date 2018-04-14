@@ -63,6 +63,12 @@
 
 .Gadgets__item-image {
   flex: 1;
+  min-width: 0;
+}
+
+.Gadgets__item-image img {
+  width: 100%;
+  display: block;
 }
 
 @media (max-width: 768px) {
