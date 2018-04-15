@@ -17,9 +17,9 @@ class App extends Component {
           atActive={{ opacity: 1 }}
           className="switch-wrapper"
         >
-          <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/gadgets" component={Gadgets} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/gadgets" component={Gadgets} />
+          <Route path="/" component={Home} />
         </AnimatedSwitch>
       </Router>
     );
