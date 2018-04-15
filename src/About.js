@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import "./About.css";
+import Back from "./Back";
 
 class About extends Component {
   render() {
@@ -8,9 +8,7 @@ class About extends Component {
       <div className="About">
         <div className="About__container">
           <header className="About__header">
-            <nav className="About__back">
-              <Link to="/">{"↜"}</Link>
-            </nav>
+            <Back />
             <h1>About</h1>
           </header>
           <main>

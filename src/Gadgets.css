@@ -18,13 +18,6 @@
   align-items: center;
 }
 
-.Gadgets__back {
-  color: #c06938;
-  font-size: 3rem;
-  margin: auto 0;
-  padding-right: 1em;
-}
-
 .Gadgets__list {
   list-style: none;
   padding: 0;
@@ -43,6 +36,17 @@
 
 .Gadgets__item:nth-of-type(odd):hover {
   background-color: #a23b72;
+}
+
+@media (max-width: 768px) {
+  .Gadgets__item {
+    background-color: #2e86ab;
+    color: #f2fdff;
+  }
+
+  .Gadgets__item:nth-of-type(odd) {
+    background-color: #a23b72;
+  }
 }
 
 .Gadgets__item-text {

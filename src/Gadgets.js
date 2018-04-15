@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import "./Gadgets.css";
+import Back from "./Back";
 
 import backpackImage from "./backpack.jpg";
 import keyboardImage from "./keyboard.jpg";
@@ -29,9 +29,7 @@ class Gadgets extends Component {
       <div className="Gadgets">
         <div className="Gadgets__container">
           <header className="Gadgets__header">
-            <nav className="Gadgets__back">
-              <Link to="/">{"↜"}</Link>
-            </nav>
+            <Back />
             <h1>Gadgets</h1>
           </header>
           <main>

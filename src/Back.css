@@ -1,0 +1,14 @@
+.Back__link {
+  color: #c06938;
+  font-size: 3rem;
+  margin: auto 0;
+  padding-right: 1.5em;
+  position: relative;
+}
+
+.Back__link::before {
+  content: "↜";
+  /* Fix to align vertically in chrome. Firefox will be affected negatively. */
+  position: absolute;
+  top: -0.1em;
+}
