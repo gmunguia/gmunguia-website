@@ -1,15 +1,20 @@
-import React, { Component } from "react";
-import Markdown from "react-markdown";
-import "./About.css";
-import Back from "./Back";
+# Gerardo Munguia Hoyo
 
-// Written in MD to reuse the content for generating the PDF version of my CV.
-const resume = `
+## Contact
+
+E-mail: gerardomunguiahoyo@gmail.com
+
+Linkedin profile: https://www.linkedin.com/in/gerardomunguiahoyo
+
+Github profile: https://github.com/gmunguia
+
+Current city: Santander, Cantabria, Spain
+
 ## A bit about myself
 
 I'm a young, talented man enjoying the quiet piece of northern Spain.
 
-With 3+ year experience in large-scale applications, I'm a disciplined, passionate coder strong focused on growing as a professional and broadening my technical knowledge.
+With 3+ year experience in large-scale applications, I'm a disciplined, passionate coder with a strong focus on growing as a professional and broadening my technical knowledge.
 
 In my relatively short career, I've always shown outstanding performance as a coder, designer, team player and leader, which has brought me from an entry-level job to a development lead position in under two years.
 
@@ -17,11 +22,10 @@ As a developer:
 
 - I tend to favor functional programming over other styles (long live λ).
 - I merge rebase my git history.
-- I use markdown for everything (including [this document](https://github.com/gmunguia/gmunguia-website/blob/master/src/About.js)).
+- I use markdown for everything (including this document).
 - I love haskell and javascript.
 - I automate my own job as much as possible.
-- I avoid [bikeshedding](https://www.freebsd.org/doc/en/books/faq/misc.html#bikeshed-painting).
-- I abuse emoji.
+- I avoid bikeshedding.
 
 Do you have a challenging project?
 
@@ -29,16 +33,16 @@ I'm ready when you are!
 
 ## Experience
 
-### Full-stack developer @ Learnerbly - Nov 2018 to present - London, UK (remotely)
+### Full-stack developer @ Learnerbly - Oct 2018 to present - London, UK (remotely)
 
-Main stack: React, NodeJS
+Main stack: React, NodeJS, AWS
 
 Responsibilities:
 
 - Build the core product of the company, consisting on a set of native and web applications based on web technologies (eg React, GraphQL, Apollo).
 - Design, set up and support AWS infrastructure, including DynamoDB, AWS Lambda, Elasticsearch.
 
-### Development lead @ Ingram Micro Cloud - May 2017 to Nov 2018 - Santander, Spain
+### Development lead @ Ingram Micro Cloud - May 2017 to Oct 2018 - Santander, Spain
 
 Main stack: React, NodeJS
 
@@ -71,29 +75,8 @@ Responsibilities:
 
 ## Education
 
-2014 - 2015 | Ghent University: Master Thesis.
+[2014-2015] Ghent University: Master Thesis.
 
-2014 - 2015 | Ghent University: Engineer’s degree, Mechatronics, Robotics, and Automation Engineering (Erasmus+ programme)
+[2014-2015] Ghent University: Engineer’s degree, Mechatronics, Robotics, and Automation Engineering (Erasmus+ programme)
 
-2009 - 2015 | Cantabria University: Engineer’s degree, Industrial Electronics and Automation.
-`;
-
-class About extends Component {
-  render() {
-    return (
-      <div className="About">
-        <div className="About__container">
-          <header className="About__header">
-            <Back />
-            <h1>About</h1>
-          </header>
-          <main>
-            <Markdown source={resume} />
-          </main>
-        </div>
-      </div>
-    );
-  }
-}
-
-export default About;
+[2009-2015] Cantabria University: Engineer’s degree, Industrial Electronics and Automation.
