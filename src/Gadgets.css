@@ -29,12 +29,14 @@
   margin: 50px 0;
 }
 
-.Gadgets__item:hover {
+.Gadgets__item:hover,
+.Gadgets__item:hover p {
   background-color: #2e86ab;
   color: #f2fdff;
 }
 
-.Gadgets__item:nth-of-type(odd):hover {
+.Gadgets__item:nth-of-type(odd):hover,
+.Gadgets__item:nth-of-type(odd):hover p {
   background-color: #a23b72;
 }
 

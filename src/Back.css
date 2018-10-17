@@ -10,5 +10,5 @@
   content: "↜";
   /* Fix to align vertically in chrome. Firefox will be affected negatively. */
   position: absolute;
-  top: -0.1em;
+  top: -0.35em;
 }
