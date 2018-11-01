@@ -1,0 +1,31 @@
+service: gmunguia-website
+
+provider:
+  name: aws
+  region: eu-central-1
+
+plugins:
+  - serverless-finch
+  - serverless-cloudfront-invalidate
+
+custom:
+  client:
+    bucketName: gmunguia.com
+    distributionFolder: build
+    indexDocument: index.html
+    errorDocument: index.html
+  cloudfrontInvalidate:
+    distributionId: 'E14M1JUZWBDIPX'
+    items:
+      - '/android-chrome-192x192.png'
+      - '/apple-touch-icon.png'
+      - '/asset-manifest.json'
+      - '/browserconfig.xml'
+      - '/favicon-16x16.png'
+      - '/favicon-32x32.png'
+      - '/favicon.ico'
+      - '/index.html'
+      - '/manifest.json'
+      - '/mstile-150x150.png'
+      - '/safari-pinned-tab.svg'
+      - '/service-worker.js'

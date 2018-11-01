@@ -16,12 +16,16 @@
     "eslint-plugin-prettier": "^2.6.0",
     "eslint-plugin-react": "^7.9.1",
     "prettier": "^1.13.5",
-    "react-scripts": "^1.1.4"
+    "react-scripts": "^1.1.4",
+    "serverless": "^1.32.0",
+    "serverless-cloudfront-invalidate": "^1.2.1",
+    "serverless-finch": "^2.3.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "serverless client deploy && serverless cloudfrontInvalidate"
   }
 }
