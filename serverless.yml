@@ -3,6 +3,7 @@ service: gmunguia-website
 provider:
   name: aws
   region: eu-central-1
+  profile: gmunguia_website
 
 plugins:
   - serverless-finch
