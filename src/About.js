@@ -34,8 +34,8 @@ Main stack: React, NodeJS
 
 Responsibilities:
 
-- Build the core product of the company, consisting on a set of native and web applications based on web technologies (eg React, GraphQL, Apollo).
-- Design, set up and support AWS infrastructure, including DynamoDB, AWS Lambda, Elasticsearch.
+- Build the core product of the company, a web application based on cutting-edge technologies (eg React, GraphQL, Apollo).
+- Design, set up and support AWS infrastructure, including DynamoDB, Lambda, Elasticsearch.
 
 ### Development lead @ Ingram Micro Cloud - May 2017 to Nov 2018 - Santander, Spain
 
