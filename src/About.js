@@ -9,19 +9,18 @@ const resume = `
 
 I'm a young, talented man enjoying the quiet piece of northern Spain.
 
-With 3+ year experience in large-scale applications, I'm a disciplined, passionate coder strong focused on growing as a professional and broadening my technical knowledge.
+With 3+ year experience in large-scale applications, I'm a disciplined, passionate coder strongly focused on growing as a professional and broadening my technical knowledge.
 
 In my relatively short career, I've always shown outstanding performance as a coder, designer, team player and leader, which has brought me from an entry-level job to a development lead position in under two years.
 
 As a developer:
 
 - I tend to favor functional programming over other styles (long live λ).
-- I merge rebase my git history.
+- I ~~merge~~ rebase my git history.
 - I use markdown for everything (including [this document](https://github.com/gmunguia/gmunguia-website/blob/master/src/About.js)).
 - I love haskell and javascript.
 - I automate my own job as much as possible.
 - I avoid [bikeshedding](https://www.freebsd.org/doc/en/books/faq/misc.html#bikeshed-painting).
-- I abuse emoji.
 
 Do you have a challenging project?
 
