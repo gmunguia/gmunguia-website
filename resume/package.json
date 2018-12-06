@@ -1,0 +1,15 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "concat-md": "node --experimental-modules ./concat-md > resume.md",
+    "convert": "md-to-pdf --stylesheet node_modules/markdown-splendor/css/splendor.min.css --stylesheet fix-headers.css resume.md",
+    "resume": "npm run concat-md && npm run convert"
+  },
+  "devDependencies": {
+    "markdown-splendor": "^1.0.1",
+    "md-to-pdf": "^2.4.2"
+  }
+}

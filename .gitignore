@@ -22,3 +22,7 @@ yarn-error.log*
 
 .tern-*
 .serverless
+
+# resume
+/resume/resume.md
+/resume/resume.pdf
